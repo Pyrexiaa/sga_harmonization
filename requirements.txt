@@ -1,0 +1,32 @@
+# Pinned to the versions used to produce the manuscript results (Python 3.10-3.12).
+# Install with:  pip install -r requirements.txt
+
+# Core numerics and data handling
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.2
+
+# Modelling
+scikit-learn==1.6.1
+catboost==1.2.7
+torch==2.6.0
+imbalanced-learn==0.13.0
+statsmodels==0.14.4
+
+# Interpretability
+shap==0.46.0
+
+# Plotting
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# I/O
+openpyxl==3.1.5
+XlsxWriter==3.2.2
+PyYAML==6.0.2
+joblib==1.4.2
+
+# ── Optional ────────────────────────────────────────────────────────────────
+# Imported lazily; the pipeline degrades gracefully when they are absent.
+# torchsampler==0.1.2   # class-balanced DataLoader sampling for the neural network
+# smogn==0.1.2          # SMOGN oversampling variant in the imputation-metrics experiment
