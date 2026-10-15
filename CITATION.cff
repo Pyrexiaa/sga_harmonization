@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below and this software release."
+title: "sga_harmonization: cross-site pooling with feature harmonization for small-for-gestational-age prediction"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Pyrexiaa/sga_harmonization"
+authors:
+  - family-names: Lim
+    given-names: Jia Yu
+  - family-names: Saw
+    given-names: Shier Nee
+keywords:
+  - small-for-gestational-age
+  - feature harmonization
+  - multi-centre clinical modelling
+  - machine learning
+preferred-citation:
+  type: article
+  title: "Cross-site pooling with feature harmonization for small-for-gestational-age (SGA) prediction across heterogeneous feature spaces"
+  year: 2026
+  authors:
+    - family-names: Lim
+      given-names: Jia Yu
+    - family-names: Nirmalan
+      given-names: Praveen Kumar
+    - family-names: Choorakuttil
+      given-names: Rijo Mathew
+    - family-names: Sethi
+      given-names: Neha Sethi A/P Naresh
+    - family-names: Kamar
+      given-names: Azanna Ahmad
+    - family-names: Saaid
+      given-names: Rahmah
+    - family-names: Jalil
+      given-names: Nurul Syazwani
+    - family-names: Ng
+      given-names: Kwan Hoong
+    - family-names: Saw
+      given-names: Shier Nee
